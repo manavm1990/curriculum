@@ -1,0 +1,49 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(
+      rgba(0, 51, 102, 0.7),
+      rgba(0, 51, 102, 0.7)
+    ),
+    url("/img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.heroBanner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 51, 102, 0.7);
+  z-index: 1;
+}
+
+.heroBanner > * {
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.heroBanner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.heroBanner p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 1rem auto;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
