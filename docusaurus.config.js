@@ -38,7 +38,7 @@ const config = {
         },
         items: [
           { to: "/docs/177/intro", label: "CIS 177" },
-          { to: "/docs/277/translate-your-site", label: "CIS 277" },
+          { to: "/docs/277/intro", label: "CIS 277" },
         ],
       },
       footer: {
