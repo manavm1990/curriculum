@@ -32,5 +32,6 @@
   "javascript.inlayHints.parameterNames.enabled": "none",
   "javascript.inlayHints.variableTypes.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.validate.enable": true
+  "javascript.validate.enable": true,
+  "cSpell.words": ["Fastify"]
 }
