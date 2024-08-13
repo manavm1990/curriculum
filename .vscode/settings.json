@@ -15,22 +15,10 @@
     }
   ],
   "eslint.validate": ["typescript", "typescriptreact"],
-  "eslint.workingDirectories": [
-    "./",
-    "./packages/ui",
-    "./packages/types",
-    "'./apps/web/app/(routes)/product/[slug]/components/main/integrations/legacy'",
-    "./apps/web",
-    "./apps/docs"
-  ],
   "files.autoSave": "onFocusChange",
   "javascript.inlayHints.parameterNames.enabled": "none",
   "javascript.inlayHints.variableTypes.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": true,
-  "[markdown]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
-  },
   "cSpell.words": ["Fastify"]
 }

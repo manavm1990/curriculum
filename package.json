@@ -24,7 +24,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.5.1",
-    "@docusaurus/types": "^3.5.1"
+    "@docusaurus/types": "^3.5.1",
+    "markdownlint": "^0.34.0"
   },
   "browserslist": {
     "production": [
