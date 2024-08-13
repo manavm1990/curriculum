@@ -1,5 +1,4 @@
 {
-  "css.validate": false,
   "editor.codeActionsOnSave": {
     "addMissingImports": "explicit",
     "source.fixAll": "explicit",
@@ -25,13 +24,13 @@
     "./apps/docs"
   ],
   "files.autoSave": "onFocusChange",
-  "tailwindCSS.experimental.classRegex": [
-    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ],
   "javascript.inlayHints.parameterNames.enabled": "none",
   "javascript.inlayHints.variableTypes.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": true,
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
   "cSpell.words": ["Fastify"]
 }

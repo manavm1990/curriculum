@@ -2,40 +2,11 @@
 sidebar_position: 6
 ---
 
-# Congratulations!
+# Helpful Links
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+The following are links to resources curated by the instructor.
 
-Docusaurus has **much more to offer**!
-
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
-
-```jsx live
-function Clock(props) {
-  const [date, setDate] = useState(new Date());
-  useEffect(() => {
-    const timerID = setInterval(() => tick(), 1000);
-
-    return function cleanup() {
-      clearInterval(timerID);
-    };
-  });
-
-  function tick() {
-    setDate(new Date());
-  }
-
-  return (
-    <div>
-      <h2>It is {date.toLocaleTimeString()}.</h2>
-    </div>
-  );
-}
-```
-
-## What's next?
-
-- Read the [official documentation](https://docusaurus.io/)
+- [CodeFinity on YouTube](https://docusaurus.io/)
 - Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
 - Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
 - Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)

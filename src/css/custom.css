@@ -20,3 +20,48 @@
   --ifm-color-primary-lightest: #7fa0bd;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.sp-embed-player {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  padding: 20px 0;
+}
+
+.sp-embed-player::before,
+.sp-embed-player::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: var(--ifm-color-primary);
+}
+
+.sp-embed-player::before {
+  top: 0;
+}
+
+.sp-embed-player::after {
+  bottom: 0;
+}
+@media (min-width: 640px) {
+  .sp-embed-player {
+    width: 640px;
+  }
+}
+
+@media (min-width: 883px) {
+  .sp-embed-player {
+    width: 883px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sp-embed-player {
+    width: 1280px;
+  }
+}
