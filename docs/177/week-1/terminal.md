@@ -105,7 +105,7 @@ b) `Documents`
 c) The space between `cd` and `Documents`
 d) The `~` symbol
 
-Earlier, you saw `-a` and `-l` with the `ls` command. What are `-a` and `-l` called? Research this and/or use an AI service like Warp Terminal to find out.
+Earlier, you saw `-a` and `-l` with the `ls` command. What are `-a` and `-l` called? Research this to find out.
 
 ---
 
