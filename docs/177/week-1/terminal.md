@@ -116,7 +116,7 @@ Once you have completed the above exercises and quiz, please notify your instruc
 1. [MDN Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
 1. [Traversy Media Command Line Crash Course](https://youtu.be/uwAqEzhyjtw?si=HMRIP0WZdwBQAHZh)
 
-Note that the above resources are optional and not required for the course. They are provided to fill up the leftover time, and you should utilize them while you wait for your friends in lieu of just sitting around and/or playing games on your phone. 🙅‍♀️
+Note that the above resources are optional and not required for the course. They are provided to fill up your leftover time. You should utilize them while you wait for your friends in lieu of just sitting around and/or playing games on your phone. 🙅‍♀️
 
 If you do find some points of interest in the resources above, please notify your instructor for possible bonus points.
 
