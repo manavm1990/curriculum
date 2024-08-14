@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Installations and Setups - Mac and Linux
+# Installations and Setups - Mac 🍏
 
 The videos below will walk you through the process of setting up your development environment. This part of the course is more of a 'follow the leader' format and we are not spending the time here to explain all of these tools. Just follow along as closely as you can and don't worry about understanding everything right now. We will cover all of these tools in detail later on.
 
