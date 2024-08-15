@@ -42,9 +42,9 @@ This command will show you a list of all the commands that you have run in the t
 
 Note that you can also use the up and down arrow keys to navigate through your command history.
 
-#### Terminal Video
+#### Terminal Videos
 
-You'll want to follow along with the video below to get a better understanding of the terminal. Remember that if you are on Mac, you are using Warp Terminal (do 'command' + 'space' and search for, "Warp"). If you are on Windows, you are using the GitBash terminal (press the Windows key and search for, "GitBash").
+You'll want to follow along with the videos below to get a better understanding of the terminal. Remember that if you are on Mac, you are using Warp Terminal (do 'command' + 'space' and search for, "Warp"). If you are on Windows, you are using the GitBash terminal (press the Windows key and search for, "GitBash").
 
 <div class="sp-embed-player" data-id="cZVI3oVJ1q0">
 <script src="https://go.screenpal.com/player/appearance/cZVI3oVJ1q0"></script>
@@ -52,6 +52,22 @@ You'll want to follow along with the video below to get a better understanding o
 height: "100%"}}
 scrolling="no"
 src="https://go.screenpal.com/player/cZVI3oVJ1q0?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
+
+<div class="sp-embed-player" data-id="cZVYFlVJtf2">
+<script src="https://go.screenpal.com/player/appearance/cZVYFlVJtf2"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZVYFlVJtf2?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
+
+<div class="sp-embed-player" data-id="cZVYFrVJth1">
+<script src="https://go.screenpal.com/player/appearance/cZVYFrVJth1"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZVYFrVJth1?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
+
+Note that in the above video, I mention a podcast and Git. Disregard this.
 
 ## Exercises
 
@@ -119,31 +135,3 @@ Once you have completed the above exercises and quiz, please notify your instruc
 Note that the above resources are optional and not required for the course. They are provided to fill up your leftover time. You should utilize them while you wait for your friends in lieu of just sitting around and/or playing games on your phone. 🙅‍♀️
 
 If you do find some points of interest in the resources above, please notify your instructor for possible bonus points.
-
-<!-- TODO: Create more lecture and video content!
-## Additional Bash Commands
-
-Now that you have learned some basic Bash commands, it's time to explore a few more useful commands. Here are some suggestions for your next steps:
-
-### Copy Files - `cp`
-
-The `cp` command allows you to copy files from one location to another. It's like if you were to make a duplicate of a file. You can use it in the following format: `cp source_file destination_file`. Try copying a file from one directory to another using the `cp` command.
-
-### Move or Rename Files - `mv`
-
-The `mv` command is used to move or rename files. It's like if you were to pick up a file and place it in a different folder or give it a new name. You can use it in the following format: `mv source_file destination_file`. Try moving or renaming a file using the `mv` command.
-
-### Remove Files or Directories - `rm`
-
-The `rm` command is used to remove files or directories. It's like if you were to delete a file or folder. Be careful when using this command, as it permanently deletes the files or directories. You can use it in the following format: `rm file_or_directory`. Try removing a file or directory using the `rm` command.
-
-### View File Contents - `cat`
-
-The `cat` command is used to view the contents of a file. It's like if you were to open a file and read its contents. You can use it in the following format: `cat file`. Try viewing the contents of a file using the `cat` command.
-
-### Search for Files or Text - `find` and `grep`
-
-The `find` command is used to search for files or directories based on specific criteria, such as name, size, or modification time. It's like if you were to search for a file in a folder. You can use it in the following format: `find directory -name filename`. The `grep` command is used to search for specific text within files. It's like if you were to search for a specific word in a document. You can use it in the following format: `grep search_term file`. Try using the `find` and `grep` commands to search for files or text.
-
-Remember to practice these commands in your terminal to reinforce your learning. Experiment with different options and arguments to explore their full capabilities.
--->

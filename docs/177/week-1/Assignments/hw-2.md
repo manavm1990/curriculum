@@ -8,7 +8,7 @@ sidebar_position: 2
 
 Simply follow this [GitHub Guide](https://guides.github.com/activities/hello-world/) to create a new repository on GitHub. You will be creating a new repository called `hello-world`.
 
-Upon completion, send the link to your instructor for review.
+Upon completion, submit the link to your repository via the assignment in Brightspace.
 
 ## Listen to a Podcast (or read the transcript)
 
@@ -32,4 +32,4 @@ And, of course, what did you learn about the fundamentals of HTML and CSS? Was i
 
 Part of the purpose of writing this Gist is to practice your MD skills. The expectation is that you will use well-formatted markdown, with a single top-level heading (e.g. `# Reflections for Week 1`) and a few subheadings (e.g. `## GitHub`, `## Tooling`, `## Terminal`). You should also use lists, links, and other markdown features that you have learned about. The formatting is just as important, if not more important than the content.
 
-Upon completion, send the link to your instructor for review.
+Upon completion, submit the link to your Gist via the assignment in Brightspace.

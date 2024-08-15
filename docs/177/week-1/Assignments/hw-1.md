@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Homework 1-1: Git and GitHub Introduction
 
-<div style={{width: '100%', height: 0, paddingBottom: '55%', position: 'relative'}}><iframe src="https://giphy.com/embed/OCu7zWojqFA1W" width="100%" height="100%" style={{position: 'absolute'}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/samuel-l-jackson-jurassic-park-hold-onto-your-butts-OCu7zWojqFA1W">via GIPHY</a></p>
-
 ## Before Getting Started
 
 Before starting this assignment, you will need to have a GitHub account. If you don't have one, you can [create one](https://github.com/).
