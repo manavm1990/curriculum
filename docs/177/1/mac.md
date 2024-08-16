@@ -7,7 +7,7 @@ sidebar_position: 1
 The videos below will walk you through the process of setting up your development environment. This part of the course is more of a 'follow the leader' format and we are not spending the time here to explain all of these tools. Just follow along as closely as you can and don't worry about understanding everything right now. We will cover all of these tools in detail later on.
 
 The following videos will guide you on this process. Naturally, if you are not
-using Mac or Linux, you can skip this step.
+using Mac/Linux, you can skip this step.
 
 ## Step 1: Install Homebrew 🍺 and Warp Terminal
 

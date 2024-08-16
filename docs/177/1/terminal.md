@@ -4,47 +4,47 @@ sidebar_position: 2
 
 # Terminal/Command Line
 
-The terminal is a powerful tool that allows you to interact with your computer using text commands. It is a text-based interface that allows you to interact with your computer's operating system. The terminal is also known as the command line or 🐚.
+The terminal, also known as the command line or 🐚, is a powerful tool that allows you to interact with your computer using text commands. It is essential for developers as it enables automation and efficient execution of complex operations.
 
-It allows you to perform a wide range of tasks, from navigating your file system to running scripts and programs. It is an essential tool for developers, as it allows you to automate tasks and perform complex operations quickly and efficiently.
+As developers, we tend to use the terminal as our command center. It provides a more efficient way to control our computers through text commands, allowing us to perform tasks faster than using the graphical user interface (GUI).
 
-The video below will introduce you to the terminal and show you how to use some basic commands.
+Anything that can be done in the GUI can also be done in the terminal. It allows us to create, move, and delete files, as well as write scripts to automate tasks and install software.
+
+Having a good understanding of the terminal can make you more productive and efficient as a developer, enabling you to solve problems quickly.
+
+The terminal itself doesn't do much without a shell like Bash, which interprets and executes commands. We will introduce a few basic Bash commands that you can use in the terminal.
 
 ## Introduction to Bash Commands in the Terminal
 
-The terminal by itself doesn't do much, just like a computer without any software or operating system. Fortunately, akin to an operating system, the terminals that you installed (Warp or GitBash) include Bash, a shell that interprets commands and executes them. We'll introduce a few basic commands that you can use in the terminal.
+### Change Directory - `cd`
 
-### Change Directory -`cd`
+The `cd` command takes you to your home directory, denoted by `~`. It is useful when you are lost or want to start over. To navigate outside the home directory, use `cd` followed by a space and the directory name as the argument.
 
-By itself it takes us to our home directory, denoted by a `~`. This is a great command to remember if you are ever lost or confused about where you are in the terminal. Just return home and start over.
+For example, `cd Documents` takes you to the `Documents` directory, similar to double-clicking on the `Documents` folder in the GUI.
 
-However, we can also use it to navigate to other directories. For example, `cd Documents` will take us to the `Documents` directory. The GUI equivalent would be like if we double clicked on the `Documents` folder graphic.
+Remember to include a space as the delimiter between the command and the argument. You can save time and avoid typos by typing the first few characters and pressing `Tab` for autocomplete.
 
-Here, `cd` is the command and `Documents` is the argument. Arguments are the values that we pass to a command to tell it what to do. If you have some programming experience, these might sound similar to functions and their arguments.
-
-While we are being technical, we will add that the space in between the command and the argument is important. If you don't have a space, the terminal will not know what you are trying to do. It's known as a **delimiter**. It separates the command from the argument.
-
-**Hot Tip:** Instead of typing out the entire directory name, just type the first few characters and then press the `Tab` key. The terminal will autocomplete the directory name for you. This is a great way to save time and avoid typos.
-
-Finally, how do we go up a directory? We can use `cd ..`. This is like if we were to click on the folder icon that says, "Up One Level".
+To go back up one level, use `cd ..`, which acts like a 'back button' or clicking on the 'Up One Level' folder icon in the GUI.
 
 ### List Directory - `ls`
 
-This command will list all the files and directories in the current directory. It's like if you were to open a folder and see all the files and folders inside.
+The `ls` command lists all files and directories in the current directory, similar to opening a folder and viewing its contents.
 
 ### Make Directory - `mkdir`
 
-This command will create a new directory called `Code`. It's like if you were to right-click in a folder and create a new folder. Note that you'll want to do `cd` first to make sure that you are in your home directory before creating this new `Code` directory.
+Use `mkdir Code` to create a new directory called `Code`, similar to right-clicking in a folder and creating a new folder. Make sure to navigate to your home directory with `cd` before creating the new directory.
+
+Consistency in capitalization, like using `Code` to match `Documents` and `Pictures`, is a good practice for better coding habits.
 
 ### Get a History of Commands - `history`
 
-This command will show you a list of all the commands that you have run in the terminal. It's like if you were to look at your browser history to see all the websites that you have visited. This can also be useful if you want to run a command again that you have run in the past.
+The `history` command displays a list of all the commands you have run in the terminal, similar to viewing your browser history. It can be useful for running previous commands again.
 
-Note that you can also use the up and down arrow keys to navigate through your command history.
+You can navigate through your command history using the up and down arrow keys.
 
 #### Terminal Videos
 
-You'll want to follow along with the videos below to get a better understanding of the terminal. Remember that if you are on Mac, you are using Warp Terminal (do 'command' + 'space' and search for, "Warp"). If you are on Windows, you are using the GitBash terminal (press the Windows key and search for, "GitBash").
+To gain a better understanding of the terminal, follow along with the videos below. If you are on Mac, use Warp Terminal (press 'command' + 'space' and search for "Warp"). If you are on Windows, use the GitBash terminal (press the Windows key and search for "GitBash").
 
 <div class="sp-embed-player" data-id="cZVI3oVJ1q0">
 <script src="https://go.screenpal.com/player/appearance/cZVI3oVJ1q0"></script>
