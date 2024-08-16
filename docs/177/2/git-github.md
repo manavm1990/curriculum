@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Getting Started with Git and GitHub
 
-In this course, we will be using Git and GitHub to manage our code. Git is a version control system that allows you to track changes in your code. GitHub is a platform that allows you to host your code and collaborate with others.
+We will be using Git and GitHub to manage our code. Git is a **version control system (VCS)** that allows you to track changes in your code. GitHub is a platform that allows you to host your code and collaborate with others.
 
 You should definitely follow along with the videos on this page, take 🎶 and ask questions. This is critical information that we will be using for the rest of your course, and likely for the rest of your career if move on to working as a developer or engineer.
 
