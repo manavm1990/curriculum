@@ -16,6 +16,16 @@ Once you have your GitHub username, **please send it to your instructor.** You w
 
 **Optional but Recommended:** You should [apply for GitHub Education.](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student#applying-to-github-education) This will unlock free access to the aforementioned benefits such as GitHub Copilot. Please let the class know how this is going for you and help each other to get this benefit.
 
-## The Assignment
+## Assignment
 
-Complete the [_GitHub Starter Assignment_ in our GitHub Classroom.](https://classroom.github.com/a/IbW_yY3i) This is generated and provided by GitHub. If something is unclear, please ask your instructor.
+Open up your terminal. Navigate to your `Code` directory. Create a directory inside of `Code` called `markdown-practice`. Navigate to this directory. Use the `touch` command to create a new file `me.md`.
+
+Open up VS Code using the command `Code .`. Be sure to include that `.` at the end. This will open up the current directory in VS Code.
+
+Now, in `me.md`, write a short biography about yourself using Markdown. Include headings, lists, links, images, and any other elements you find interesting. Save the file and preview it in VS Code to see how it looks.
+
+To preview in VS Code, you can use the `Ctrl/Cmd+Shift+V` keyboard shortcut or right-click in the editor and select "Open Preview". Alternatively, use `Ctrl/Cmd+Shift+P` to open the command palette and search for "Markdown: Open Preview".
+
+For the **deliverables,** you can just upload screenshots of your code and the preview into Brightspace. If you have any questions, please ask your instructor.
+
+**Also,** please provide a screenshot of your completion of the [Markdown Tutorial](https://www.markdowntutorial.com/). This is a great way to practice your Markdown skills and learn some new tricks.

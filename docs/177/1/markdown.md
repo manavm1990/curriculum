@@ -32,18 +32,6 @@ Work through the [Markdown Tutorial](https://www.markdowntutorial.com/). It prov
 
 Upon reaching the end of the tutorial, you should have a good understanding of how to use Markdown to format text effectively. Please notify your instructor when you have completed the tutorial.
 
-## Assignment
-
-Open up your terminal. Navigate to your `Code` directory. Create a directory inside of `Code` called `markdown-practice`. Navigate to this directory. Use the `touch` command to create a new file `me.md`.
-
-Open up VS Code using the command `Code .`. Be sure to include that `.` at the end. This will open up the current directory in VS Code.
-
-Now, in `me.md`, write a short biography about yourself using Markdown. Include headings, lists, links, images, and any other elements you find interesting. Save the file and preview it in VS Code to see how it looks.
-
-To preview in VS Code, you can use the `Ctrl/Cmd+Shift+V` keyboard shortcut or right-click in the editor and select "Open Preview". Alternatively, use `Ctrl/Cmd+Shift+P` to open the command palette and search for "Markdown: Open Preview".
-
-Once you have finished, show the file to your instructor for review.
-
 ## Conclusion
 
 Markdown is a versatile and widely supported markup language that makes it easy to format text in a clean and readable way. By mastering its syntax and features, you can create professional-looking documentation and enhance your writing in various contexts.
