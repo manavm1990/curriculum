@@ -12,7 +12,7 @@ Upon completion, submit the link to your repository via the assignment in Bright
 
 ## Listen to a Podcast (or read the transcript)
 
-[\_The Fundamentals - HTML + CSS](https://syntax.fm/show/158/the-fundamentals-html-css)
+[_The Fundamentals - HTML + CSS_](https://syntax.fm/show/158/the-fundamentals-html-css)
 
 ## Reflection
 
