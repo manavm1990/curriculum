@@ -4,31 +4,33 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Current Syllabus",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    title: <a href="/docs/177/intro">CIS 177</a>,
+    Svg: require("@site/static/img/js.svg").default,
     description: (
-      <>Coming Soon! We are working on the current syllabus for the course.</>
+      <p>
+        This course builds upon prerequisite HTML/CSS knowledge. It introduces
+        JavaScript Web Development, using modern tooling including CLI,
+        Git/GitHub, Markdown, TailwindCSS, VS Code, etc. This course is 💯
+        online in the Spring and in-person in the Fall.
+      </p>
     ),
   },
   {
-    title: "Current Assignment",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    title: <a href="/docs/277/intro">CIS 277</a>,
+    Svg: require("@site/static/img/react.svg").default,
     description: (
-      <>No assignments are available at the moment. Please check back later.</>
-    ),
-  },
-  {
-    title: "Helpful Links",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
-    description: (
-      <>Instructor recommended links of external resources for the course.</>
+      <p>
+        This course builds upon prerequisite JavaScript knowledge. It introduces
+        React Web Development. This course is offered in a hybrid format during
+        the Fall only.
+      </p>
     ),
   },
 ];
 
 function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx("col col--4")}>
+    <div className={clsx("col col--6")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
