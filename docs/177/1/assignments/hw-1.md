@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Homework 1-1: Git and GitHub Introduction
+# Homework 1-1: MD and GitHub Introduction
 
 ## Before Getting Started
 
