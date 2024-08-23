@@ -20,7 +20,7 @@ Once you have your GitHub username, **please send it to your instructor.** You w
 
 Open up your terminal. Navigate to your `Code` directory. Create a directory inside of `Code` called `markdown-practice`. Navigate to this directory. Use the `touch` command to create a new file `me.md`.
 
-Open up VS Code using the command `Code .`. Be sure to include that `.` at the end. This will open up the current directory in VS Code.
+Open up VS Code using the command `code .`. Be sure to include that `.` at the end. This will open up the current directory in VS Code.
 
 Now, in `me.md`, write a short biography about yourself using Markdown. Include headings, lists, links, images, and any other elements you find interesting. Save the file and preview it in VS Code to see how it looks.
 
