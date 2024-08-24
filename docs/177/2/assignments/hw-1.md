@@ -35,6 +35,8 @@ Do also note that you can hover over each of these errors and a link to the docu
 
 It's time to get to work! Start by utilizing the [link to this assignment from GitHub Classroom.](https://classroom.github.com/a/unsb5KD6) Then, checkout the `README.md` file in the repository for instructions on how to get started.
 
+**Consider that `README` as a more in-depth continuation of this document/lesson. It's a critical read!** You may even want to get started on that now before reading the rest of this.
+
 ## What Am I Building?
 
 You will be building a simple webpage that will be used to showcase your skills in HTML and CSS. Consider turning what you did in MarkDown assignment into a webpage. That is, it can be your bio.
