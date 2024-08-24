@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Week 1️⃣ Recap
 
 ## 📚 Topics Covered
