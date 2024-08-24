@@ -10,7 +10,7 @@ You should definitely follow along with the videos on this page, take 🎶 and a
 
 ## The Terminal, VS Code and Git
 
-In these videos, we are creating a new repository on GitHub and cloning it to our local machine. However, in most cases, you will be cloning an existing repository to your local machine.
+In these videos, we are creating a new repository on GitHub and clone it to our local machine. However, in most cases, you will be cloning an existing repository to your local machine.
 
 <div class="sp-embed-player" data-id="cZVYFBVJt1O">
 <script src="https://go.screenpal.com/player/appearance/cZVYFBVJt1O"></script>
