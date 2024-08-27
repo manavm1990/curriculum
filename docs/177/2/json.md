@@ -6,9 +6,9 @@ sidebar_position: 2
 
 Markdown is a way of annotating plain text with special characters to give it meaning. However, when it comes to sharing data with machines, JSON is the preferred format.
 
-JSON, which stands for JavaScript Object Notation, is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate. It is important to note that JSON is not JavaScript, but rather a notation for annotating data.
+JSON, which stands for JavaScript Object Notation, is a lightweight data-interchange format used across the web and in various programming languages. It is easy for humans to read and write, and easy for machines to parse and generate. It is important to note that JSON is not JavaScript, but rather a notation for presenting data in a universally recognized format. It resembles JavaScript objects.
 
-JSON has a strict syntax, with keys enclosed in double quotes and no trailing commas. Here is an example of a JSON object:
+JSON has a strict syntax that uses curly braces to wrap up the data as key-value pairs. Note that keys **must be** in double quotations. The values can be in quotations if they are strings or without if they are numbers.
 
 ```json
 {
