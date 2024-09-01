@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Terminal/Command Line
 
+Computers can receive user input through either a command line interface (terminal emulator) or a graphical user interface (GUI). In a command line interface (AKA "console", "command line", "terminal", or "shell"\), the user types commands using the keyboard to tell the computer to take an action. The computer will display the results of the operation by writing text to the screen.
+
 The terminal, also known as the command line or 🐚, is a powerful tool that allows you to interact with your computer using text commands. It is essential for developers as it enables automation and efficient execution of complex operations.
 
 As developers, we tend to use the terminal as our command center. It provides a more efficient way to control our computers through text commands, allowing us to perform tasks faster than using the graphical user interface (GUI).
@@ -41,6 +43,14 @@ Consistency in capitalization, like using `Code` to match `Documents` and `Pictu
 The `history` command displays a list of all the commands you have run in the terminal, similar to viewing your browser history. It can be useful for running previous commands again.
 
 You can navigate through your command history using the up and down arrow keys.
+
+---
+
+![Example of command, argument and flags](/img/command-argument-flag.png)
+
+Note that commands, arguments, and flags are delimited by a space. Commands are the actions you want to perform, arguments are the data you want to act on, and flags modify the behavior of the command.
+
+---
 
 #### Terminal Videos
 
