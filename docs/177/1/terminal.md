@@ -16,6 +16,8 @@ Having a good understanding of the terminal can make you more productive and eff
 
 The terminal itself doesn't do much without a shell like Bash, which interprets and executes commands. We will introduce a few basic Bash commands that you can use in the terminal.
 
+Technically, we are using a terminal emulator, which is a program that emulates a physical terminal inside of a 'windows manager' (like Windows, MacOS, or Linux). The terminal emulator is the program that you are using to interact with the shell. On Mac, that's Warp Terminal. On Windows, that's GitBash.
+
 ## Introduction to Bash Commands in the Terminal
 
 ### Change Directory - `cd`
