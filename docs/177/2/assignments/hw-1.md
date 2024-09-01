@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Homework 2-2: Play Around with Tailwind CSS
+# Homework 2-1: Play Around with Tailwind CSS
 
 ## What is Tailwind CSS?
 
