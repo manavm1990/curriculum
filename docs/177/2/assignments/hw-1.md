@@ -20,6 +20,15 @@ To be effective at Tailwind, you do need to actually know CSS. This is because T
 
 In CSS Frameworks, CSS knowledge is not required. But, that's a tradeoff. A lot of those types of sites look the same. The ability to customize and truly make your site your own is limited.
 
+## Overview of the Tailwind Docs
+
+<div class="sp-embed-player" data-id="cZneFoVdQzP">
+<script src="https://go.screenpal.com/player/appearance/cZneFoVdQzP"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZneFoVdQzP?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
+
 ## Deliverables
 
 ### Part 1: Tailwind CSS Playground
