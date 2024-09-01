@@ -16,7 +16,7 @@ Reflecting on your learning is an important part of the learning process. It hel
 
 In this assignment, you will reflect on your learning in this course so far. Think about what you have learned, how you have learned it, and what you can do to improve your learning in the future. Write a short reflection (about 200-300 words) on your learning in this course so far. You can write about what you have learned, how you have learned it, what you have found challenging, what you have found interesting, and what you can do to improve your learning in the future.
 
-You are to do this in a GitHub Gist using well-framed Markdown. Submit your Gist link via the assignment in Brightspace.
+You are to do this in a GitHub Gist using well-formatted, semantic Markdown. Submit your Gist link via the assignment in Brightspace.
 
 You should reflect on the following topics, in no particular order:
 
