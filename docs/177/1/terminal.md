@@ -44,17 +44,23 @@ The `history` command displays a list of all the commands you have run in the te
 
 You can navigate through your command history using the up and down arrow keys.
 
----
+### Putting It All Together
 
 ![Example of command, argument and flags](/img/command-argument-flag.png)
 
 Note that commands, arguments, and flags are delimited by a space. Commands are the actions you want to perform, arguments are the data you want to act on, and flags modify the behavior of the command.
 
+> When I was a child, I used a computer by looking at the pictures. When I grew up, I learned to read and write."
+> William Shotts, Jr. Linux Command.org
+
+> Your entire computer can be accessed through the command line. You can do everything through the command line. It's the same computer you already know and love.
+> Tania Rascia
+
 ---
 
-#### Terminal Videos
-
 To gain a better understanding of the terminal, follow along with the videos below. If you are on Mac, use Warp Terminal (press 'command' + 'space' and search for "Warp"). If you are on Windows, use the GitBash terminal (press the Windows key and search for "GitBash").
+
+When you first open up your terminal, you should verify that you are in your 'home' directory. You should see a `~` in your command prompt somewhere. If you don't see that, you can always type `cd` and press 'enter' to make sure that you are home.
 
 <div class="sp-embed-player" data-id="cZVI3oVJ1q0">
 <script src="https://go.screenpal.com/player/appearance/cZVI3oVJ1q0"></script>
@@ -78,6 +84,12 @@ scrolling="no"
 src="https://go.screenpal.com/player/cZVYFrVJth1?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
 
 Note that in the above video, I mention a podcast and Git. Disregard this.
+
+---
+
+🧠 **Remember:** that you can take advantage of 'auto-completion.' This means that you can just type first few characters of a file or directory name and then press 'tab' and the command prompt will try to complete the name or at least give you a list of possible choices.
+
+🧠 **Remember:** that you can also hit the 'up arrow' to recall previously typed commands.
 
 ## Exercises
 
