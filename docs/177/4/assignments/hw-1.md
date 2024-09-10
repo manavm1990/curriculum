@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Homework 3-2: HTML-TailwindCSS
+# Homework 4-1: HTML-Tailwind CSS
 
 You'll be using a code repository template. If you've had other programming courses, then you may have noticed that most projects don't just start with a whole lot of nothing. Instead, they are usually some starter files.
 
@@ -31,7 +31,7 @@ You will be building a simple webpage that will be used to showcase your skills 
 
 You could also try to port over an assignment from another course. You would need to strip out all of the existing CSS and replace it with Tailwind CSS. This will be a good exercise in learning how to use Tailwind CSS.
 
-## Write Quality Code (Pay Attention to StyleLint and Details)
+## Write Quality Code
 
 You will be graded on the following:
 
@@ -40,7 +40,7 @@ You will be graded on the following:
 - Accessibility
 - Semantic HTML
 
-Mainly, if you just make sure that you are adhering to any/all of the errors that StyleLint is throwing at you, you should be good to go. Also, be mindful of the HTML structure and make sure that it is semantic. Keep in mind what was mentioned in the podcast from the previous week.
+Be mindful of the HTML structure and make sure that it is semantic. Keep in mind what was mentioned in the podcast from the previous week.
 
 In addition, here are some points to keep in mind based on previous submissions from students:
 
