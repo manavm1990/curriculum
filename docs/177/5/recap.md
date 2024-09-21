@@ -6,6 +6,22 @@ sidebar_position: 1
 
 ## Eloquent JavaScript: Introduction
 
+<div class="sp-embed-player" data-id="cZnDYwVd7sp">
+<script src="https://go.screenpal.com/player/appearance/cZnDYwVd7sp
+"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZnDYwVd7sp
+?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
+
+<div class="sp-embed-player" data-id="cZnDYCVd7LU">
+<script src="https://go.screenpal.com/player/appearance/cZnDYCVd7LU"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZnDYCVd7LU?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
+
 ### The Nature of Programming
 
 Programming is the act of constructing a set of precise instructions for computers. Computers are common but complex; programming allows us to make them do unique or open-ended tasks. Programming can be tedious due to computers' pedantic nature, but it's also rewarding. It allows for quick execution of tasks and expands a computer's capabilities.
@@ -59,6 +75,13 @@ Remember, the key to learning programming is practice, experimentation, and pers
 ---
 
 ## Recap: How the Web Works
+
+<div class="sp-embed-player" data-id="cZnDYNVd78J">
+<script src="https://go.screenpal.com/player/appearance/cZnDYNVd78J"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZnDYNVd78J?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
 
 ### Clients and Servers
 
