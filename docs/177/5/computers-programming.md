@@ -23,7 +23,7 @@ Programming is the act of constructing a set of precise instructions for compute
 
 Let's unpack this quote:
 
-- A program is "a set of *precise* instructions **telling a computer what to do**" and writing/"contructing" these instructions is *programming*.
+- A program is "a set of *precise* instructions **telling a computer what to do**" and writing/"constructing" these instructions is *programming*.
 - "Computers are *dumb*, *pedantic* beasts": unlike people, computers cannot "read between the lines" and fill-in implicit, contextual information. A program must have explicit and *formalized* instructions in order to be understood by the computer.
 - Because computers only understand explicit, formalized instructions, writing programs is "**tedious** and **frustrating**." Communicating with a computer will be a struggle not only to break-down seemingly simple tasks into even more basic commands, but also to find formal errors involving parentheses, brackets, braces, and other special characters not normally used in everyday communication.
 
