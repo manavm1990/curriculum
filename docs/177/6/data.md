@@ -102,3 +102,10 @@ In normal parlance we might say that something is 'not defined' when we mean tha
 If you opened up an empty JS file and did `console.log(x)`, you would get a `'not defined'` error. If you did `let x; console.log(x)`, you would get `undefined`.
 
 _Eloquent JavaScript_ likens creating references to data to an 🐙. If we follow that analogy, `undefined` means that the arm exists and is named something (in the 📖, he likens this name to a tattoo) but it's just open - not holding anything at all. `'not defined'` is an error message that means that the arm just doesn't exist at all. `null` means that the arm is wrapped tightly around...nothing.
+
+<div class="sp-embed-player" data-id="cZeFVBV73Ir">
+<script src="https://go.screenpal.com/player/appearance/cZeFVBV73Ir"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZeFVBV73Ir?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
