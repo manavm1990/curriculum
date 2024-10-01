@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-1. Write a reflection on the 'student-cards' app. Cite specific [code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) in your MD. Explain what you can. List out questions for what you can't.
+1. Write a reflection on the ['student-cards' app code.](https://github.com/SWIC-Web-Dev/student-cards) Cite specific [code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) in your MD. Explain what you can. List out questions for what you can't.
 
 Open up your Dev Tools browser console and type out the following basic code examples.
 
