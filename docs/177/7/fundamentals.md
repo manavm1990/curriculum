@@ -105,6 +105,10 @@ So, we use `=` a majority of the time whenever we are creating a variable and bi
 
 There is also a `==` operator, which is the loose equality operator. It compares two values for equality, converting their types if necessary. For example, `5 == "5"` returns `true` because `5` is a number and `"5"` is a string, but they are equal when converted to the same type. Modern JS code tends to use `===` for comparisons. `==` usually only appears in older code 🤮 and can lead to confusion 😕.
 
+## `>`, `<`, `>=`, `<=`
+
+These are comparison operators. They are used to compare two values and return a boolean value (`true` or `false`). For example, `5 > 3` returns `true` because `5` is greater than `3`. Similarly, `5 < 3` returns `false` because `5` is not less than `3`.
+
 ## Concatenation
 
 Concatenation is the process of combining two or more strings into a single string. In JavaScript, you can use the `+` operator to concatenate strings. For example, `"Hello, " + "world!"` returns `"Hello, world!"`.
