@@ -173,3 +173,30 @@ const y = 10;
 // The second operand is not evaluated because the first operand is true.
 if (x > 0 || y > 0) console.log("At least one operand is true.");
 ```
+
+## Code Comments
+
+Comments are used to explain code and make it easier to understand. Comments are ignored by the JavaScript engine and are not executed. There are two types of comments in JavaScript: single-line comments and multi-line comments.
+
+### Single-Line Comments
+
+Single-line comments start with `//` and continue until the end of the line. For example: `// This is a single-line comment.`
+
+### Multi-Line Comments
+
+Multi-line comments start with `/*` and end with `*/`. For example:
+
+```javascript
+/*
+This is a multi-line comment.
+It can span multiple lines.
+*/
+```
+
+### Using Comments
+
+Comments should be used to explain code that is not immediately obvious. For example, you might use a comment to explain the purpose of a function or to describe the behavior of a complex algorithm. Comments should be concise and to the point. They should not be used to explain trivial code that is self-explanatory.
+
+### Self-Documenting Code
+
+The best code is self-documenting, meaning that it is easy to understand without the need for comments. You can achieve self-documenting code by using descriptive variable names, writing clear and concise code, and following best practices. Comments should be used sparingly and only when necessary, unless otherwise specified. Meaning that, for the purposes of learning and/or submitting assignments, you should comment your code as much as possible.
