@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # HW 7-2
 
-Here's the [GitHub Classroom 🔗.](https://classroom.github.com/a/a7LcvuoE). Be sure to review the `README.md`, as usual. But, generally, the directions are the same. The 🔗 should 'fork' the template to your GitHub account. Then, you clone it into a non-repo directory, `cd`, `npm i`, etc. etc. etc.
+Be sure to get the GitHub Classroom link from Brightspace! Be sure to review the `README.md`, as usual. But, generally, the directions are the same. The 🔗 should 'fork' the template to your GitHub account. Then, you clone it into a non-repo directory, `cd`, `npm i`, etc. etc. etc.
 
 Now, create a file called `utils.js` in the `src` directory.
 
