@@ -122,23 +122,6 @@ console.log("Hello, " + firstName + " " + lastName + "!");
 
 Of course, `+` is most commonly associated with performing addition, but JavaScript is smart enough to know that if one of the operands is a string, it should concatenate the values instead of adding them. The downside is that this can especially be tricky when dealing with numbers. If any of the numbers have quotation marks, JS will treat them all as strings. "2" + 2 would give us... 22, because there was a "2" string.
 
-### Implicit Conversion
-
-Whenever JS decides on its own to 'convert' the data type, this is known as implicit conversion. JS is a dynamically typed language; this means that we are free to change the type of our data whenever we please (as opposed to statically typed languages) and JS will also change data types as it sees fit.
-
-```js
-const name = "Yoda";
-const numOfYears = 900;
-
-console.log(
-  "Hi, my name is, " +
-    name +
-    "I have been learning programming for about " +
-    numOfYears +
-    " years."
-);
-```
-
 ### Template Literals
 
 In modern JS, we avoid string concatenation. Instead, we use **template literals.** Template literals are enclosed by backticks (`) and allow you to embed expressions within the string.
