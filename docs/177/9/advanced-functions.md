@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Advanced Functions
 
-A parameter is a variable in a function declaration. An argument is the data you pass into the function parameters when it is called. For example, in `function greet(name) { return `Hello, ${name}!`; }`, `name` is a parameter. When we call `greet("John")`, `"John"` is an argument.
+A parameter is a variable in a function declaration. An argument is the data you pass into the function parameters when it is called.
 
 **Everything in JS is an object, except primitives (and even some of those can behave as objects temporarily).**
 
