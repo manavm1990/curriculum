@@ -20,5 +20,5 @@
   "javascript.inlayHints.variableTypes.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": true,
-  "cSpell.words": ["Fastify", "horiz"]
+  "cSpell.words": ["Fastify", "horiz", "incrementors"]
 }
