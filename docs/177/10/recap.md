@@ -4,6 +4,27 @@ sidebar_position: 0
 
 # Functions and Functional Programming Recap
 
+<div class="sp-embed-player" data-id="cZfQbEVswFM">
+<script src="https://go.screenpal.com/player/appearance/cZfQbEVswFM"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZfQbEVswFM?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
+
+<div class="sp-embed-player" data-id="cZf6ciVsx2G">
+<script src="https://go.screenpal.com/player/appearance/cZf6ciVsx2G"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZf6ciVsx2G?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
+
+<div class="sp-embed-player" data-id="cZf6cFVsxo7">
+<script src="https://go.screenpal.com/player/appearance/cZf6cFVsxo7"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZf6cFVsxo7?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
+
 ## Functions as First-Class Objects
 
 In JavaScript, functions are first-class objects. This means **functions can be treated like any other object**, such as being:
