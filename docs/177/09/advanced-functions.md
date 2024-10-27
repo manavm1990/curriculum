@@ -114,16 +114,12 @@ When writing your functions, you can stick with using the `function` keyword, bu
 
 Do note that there are some differences between arrow functions and regular functions as it pertains to the keyword `this`. However, as this class is more focused on writing modern JS in a functional style, we won't be covering those differences in detail, but perhaps we can discuss them in a future class.
 
----
-
 <div class="sp-embed-player" data-id="cZfhejVsFTV">
 <script src="https://go.screenpal.com/player/appearance/cZfhejVsFTV"></script>
 <iframe width="100%" height="100%" style={{border: "0", width: "100%",
 height: "100%"}}
 scrolling="no"
 src="https://go.screenpal.com/player/cZfhejVsFTV?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
-
----
 
 Additional **Assigned** Reading:
 
