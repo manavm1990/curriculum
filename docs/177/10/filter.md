@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Deep Dive: `filter`
@@ -153,21 +153,6 @@ const affordableToolNames = products
   .filter((product) => product.price < 15)
   .filter((product) => product.categories.includes("tools"))
   .map((product) => product.name);
-```
-
-### Consider Performance
-
-```javascript
-// Less efficient: Filters entire array multiple times
-const results = items
-  .filter((item) => item.type === "special")
-  .filter((item) => item.price < 100)
-  .filter((item) => item.inStock);
-
-// More efficient: Single pass with combined conditions
-const results = items.filter(
-  (item) => item.type === "special" && item.price < 100 && item.inStock
-);
 ```
 
 ---

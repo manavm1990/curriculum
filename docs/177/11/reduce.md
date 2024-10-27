@@ -69,19 +69,6 @@ const quantityByProduct = orders.reduce((acc, order) => {
   Gadget: 1
 }
 */
-
-// Create lookup object by ID
-const orderMap = orders.reduce((acc, order) => {
-  acc[order.id] = order;
-  return acc;
-}, {});
-/* Result:
-{
-  1: { id: 1, product: "Widget", quantity: 2 },
-  2: { id: 2, product: "Widget", quantity: 3 },
-  3: { id: 3, product: "Gadget", quantity: 1 }
-}
-*/
 ```
 
 ### Array Transformations

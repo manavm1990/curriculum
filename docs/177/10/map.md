@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Deep Dive: `map`
@@ -91,16 +91,17 @@ const orders = [
   },
 ];
 
-// Calculate total for each order
-const orderTotals = orders.map((order) => ({
+// Transform orders into order summaries
+const orderSummaries = orders.map((order) => ({
   orderId: order.id,
-  total: order.items.reduce((sum, item) => sum + item.quantity * item.price, 0),
+  itemCount: order.items.length,
+  firstItem: order.items[0].name,
 }));
 
 /* Result:
 [
-  { orderId: 1, total: 40 },
-  { orderId: 2, total: 10 }
+  { orderId: 1, itemCount: 2, firstItem: "Widget" },
+  { orderId: 2, itemCount: 1, firstItem: "Widget" }
 ]
 */
 ```
