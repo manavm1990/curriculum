@@ -2,6 +2,13 @@
 sidebar_position: 5
 ---
 
+<div class="sp-embed-player" data-id="cZfYDZVMeSq">
+<script src="https://go.screenpal.com/player/appearance/cZfYDZVMeSq"></script>
+<iframe width="100%" height="100%" style={{border: "0", width: "100%",
+height: "100%"}}
+scrolling="no"
+src="https://go.screenpal.com/player/cZfYDZVMeSq?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe></div>
+
 # Deep Dive: `filter`
 
 The `filter()` method is a powerful tool for selecting specific elements from arrays based on certain conditions. Let's explore how to use `filter()` effectively in real applications.
