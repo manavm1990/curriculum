@@ -124,7 +124,7 @@ name.toUpperCase(); // Returns "ALICE"
 console.log(name); // Still "alice"
 ```
 
-2. Methods on primitives always return a new value:
+1. Methods on primitives always return a new value:
 
 ```javascript
 const price = 42.3456;
@@ -133,7 +133,7 @@ typeof price; // "number"
 typeof formatted; // "string" - toFixed returns a string!
 ```
 
-3. The temporary object wrapper is just that - temporary:
+1. The temporary object wrapper is just that - temporary:
 
 ```javascript
 const greeting = "hello";
