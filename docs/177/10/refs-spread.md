@@ -13,33 +13,20 @@ In JavaScript, when you work with objects and arrays, you're often working with 
 - You can have multiple remotes (references) controlling the same TV (data)
 - When you use a remote, you're affecting the actual TV
 
-Let's see this in code:
-
 ```javascript
-// One TV, two remotes
-const tv = { channel: 4, volume: 50 };
-const remote1 = tv;
-const remote2 = tv;
+let tv1 = "Sanyo";
+let tv2 = "Magnavox";
 
-// Using remote1 changes what remote2 sees
-remote1.channel = 7;
-console.log(remote2.channel); // 7
+// Reassignment. We copy the value bound to `tv1` and assign it to `tv2`. `"Magnavox"` is garbage collected.
+tv2 = tv1;
 
-// Both remotes control the same TV!
-remote2.volume = 60;
-console.log(tv.volume); // 60
-```
+// Each display their own copy of the same string value.
+console.log(tv2, tv1);
 
-This is different from primitives, which work more like having separate TVs:
+tv1 = "LG";
 
-```javascript
-// Two separate TVs
-let tv1 = 4;
-let tv2 = tv1;
-
-// Changing tv2 doesn't affect tv1
-tv2 = 7;
-console.log(tv1); // Still 4
+// We re-assigned `tv1`, but `tv2` is the same!
+console.log(tv2, tv1);
 ```
 
 ## The Problem with References
