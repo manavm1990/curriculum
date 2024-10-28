@@ -21,7 +21,7 @@ But here's where it gets interesting. Even though these aren't objects, we can u
 Try this in your console:
 
 ```javascript
-let name = "alice";
+const name = "alice";
 console.log(name.toUpperCase()); // "ALICE"
 ```
 
