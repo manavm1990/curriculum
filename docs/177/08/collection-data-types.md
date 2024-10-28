@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Collection Data Types
 
-Before proceeding, you may wish to review the [Data Types and References](/docs/177/6/data) lesson and/or watch the video below.
-
 <div class="sp-embed-player" data-id="cZnZ3rVKIPv">
 <script src="https://go.screenpal.com/player/appearance/cZnZ3rVKIPv"></script>
 <iframe width="100%" height="100%" style={{border: "0", width: "100%",
