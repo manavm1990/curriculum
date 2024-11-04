@@ -29,7 +29,7 @@ tv1 = "LG";
 console.log(tv2, tv1);
 ```
 
-## The Problem with References
+## The Problem with References with Objects
 
 References can cause unexpected bugs when you think you're creating a copy:
 
@@ -103,14 +103,14 @@ console.log(newCart.items); // ["book", "pen", "pencil"]
 
 ## Common Spread Uses
 
-1. Copying arrays:
+Copying arrays:
 
 ```javascript
 const numbers = [1, 2, 3];
 const copy = [...numbers];
 ```
 
-2. Combining arrays:
+Combining arrays:
 
 ```javascript
 const part1 = [1, 2];
@@ -118,14 +118,14 @@ const part2 = [3, 4];
 const combined = [...part1, ...part2]; // [1, 2, 3, 4]
 ```
 
-3. Copying objects:
+Copying objects:
 
 ```javascript
 const defaults = { theme: "dark", size: "medium" };
 const userSettings = { ...defaults, theme: "light" };
 ```
 
-4. Adding to arrays without mutations:
+Adding to arrays without mutations:
 
 ```javascript
 const items = ["apple", "banana"];
