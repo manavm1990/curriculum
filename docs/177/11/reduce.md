@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # Deep Dive: `reduce`
@@ -225,3 +225,7 @@ calculateTotal(10); // "$16.00"
 ---
 
 **Remember:** While `reduce()` is powerful and flexible, sometimes using `map()`, `filter()`, or a simple loop might be more appropriate and readable. Choose the right tool for the job!
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UXiYii0Y7Nw?si=UjisItfXLyAT-RY1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
