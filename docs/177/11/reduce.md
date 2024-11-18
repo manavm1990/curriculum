@@ -194,25 +194,6 @@ const summary = transactions.reduce((acc, trans) => {
 }, {});
 ```
 
-### Function Composition
-
-```javascript
-const compose = (...fns) =>
-  fns.reduce(
-    (f, g) =>
-      (...args) =>
-        f(g(...args))
-  );
-
-const addTax = (price) => price * 1.1;
-const addShipping = (price) => price + 5;
-const formatPrice = (price) => `$${price.toFixed(2)}`;
-
-const calculateTotal = compose(formatPrice, addShipping, addTax);
-
-calculateTotal(10); // "$16.00"
-```
-
 ## Tips for Effective `reduce()` Usage
 
 1. Always provide an initial value
