@@ -22,11 +22,11 @@ The BOM represents the browser's window and provides methods to interact with th
 
 ## Document Object Model (DOM)
 
-The DOM is a standardized interface that represents the structure of an HTML or XML document as a tree of objects. Each element in the document is represented as a node in the tree, allowing for dynamic manipulation of the content, structure, and style of the document.
+The DOM is a standardized interface that represents the structure of an HTML as a tree of objects. Each element in the document is represented as a node in the tree, allowing for dynamic manipulation of the content, structure, and style of the document.
 
 ### Key DOM Concepts
 
-- **Document**: The root node of the DOM tree, representing the entire HTML or XML document.
+- **Document**: The root node of the DOM tree, representing the entire HTML document.
 - **Elements**: Nodes that represent HTML elements (e.g., `<div>`, `<p>`, `<a>`).
 - **Attributes**: Nodes that represent attributes of HTML elements (e.g., `class`, `id`).
 - **Text**: Nodes that represent the text content within elements.
