@@ -103,7 +103,7 @@ const nums = [1, 2, 3];
 const doubled = nums.map((x) => x * 2); // Creates new array instead of modifying
 ```
 
-## Variables and Scoping
+## Variables
 
 Always prefer `const` over `let`. This preference becomes even more important as we want to ensure our data is predictable and immutable where possible.
 
