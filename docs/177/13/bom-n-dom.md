@@ -42,3 +42,7 @@ JavaScript provides several methods to interact with and manipulate the DOM:
 ## Conclusion
 
 The BOM and DOM are essential concepts in web development, providing the means to interact with the browser and manipulate web pages dynamically. Understanding these models and how they are abstracted as objects allows developers to create more interactive and responsive web applications.
+
+## Next Steps
+
+Please review [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
