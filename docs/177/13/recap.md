@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 0
 ---
 
 We reference [Ryan McDermott's Clean Code Principles](https://github.com/ryanmcdermott/clean-code-javascript) for naming conventions and the Single Responsibility Principle (SRP).
