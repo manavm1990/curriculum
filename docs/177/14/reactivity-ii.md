@@ -1,225 +1,179 @@
 ---
-draft: true
 sidebar_position: 2
 ---
 
-# Reactivity II: Better State Management
+# Reactivity II: Getting Closer to React
 
-## Moving Beyond Simple Variables
+In the previous section, we learned how to create a reactive counter. Here, we'll build a more sophisticated system using state management and components.
 
-In our first lesson on reactivity, we used a simple variable to store our counter:
+## Opening Questions 🤔
 
-```javascript
-let count = 0;
+- How do you create reusable UI elements that react to data changes?
+- What problems arise when multiple components share data?
+- How can we ensure consistent updates across components?
+
+## Function Components
+
+Components are reusable UI factories that output HTML:
+
 ```
-
-While this works for simple examples, real applications need more robust state management. Let's improve our counter by introducing some important concepts.
-
-### Why Change Our Approach?
-
-Consider what happens when we need to track multiple values:
-
-```javascript
-// 🚨 Messy approach with multiple variables
-let count = 0;
-let lastUpdate = new Date();
-let numberOfClicks = 0;
-
-function updateCount() {
-  count += 1;
-  lastUpdate = new Date();
-  numberOfClicks += 1;
-  // Easy to forget to update one of these!
-  updateDisplay();
+function Count(count) {
+  return `<p class="text-4xl text-red-500 text-center">${count}</p>`;
 }
 ```
 
-## Introducing State Objects
-
-Instead of separate variables, we can group related data into a "state" object:
-
-```javascript
-// ✅ Better: One state object
-let state = {
-  count: 0,
-  lastUpdate: new Date(),
-  numberOfClicks: 0,
-};
 ```
-
-### Updating State Properly
-
-There are two ways we might update our state. Let's look at both:
-
-❌ **Direct Mutation** (What we want to avoid):
-
-```javascript
-function setCount(newCount) {
-  state.count = newCount; // Directly changing the object
-  state.lastUpdate = new Date();
-  state.numberOfClicks += 1;
-  updateDisplay();
+function Button(text, id) {
+  return `<button id="${id}" class="m-4 rounded shadow text-white bg-black px-4 py-2">${text}</button>`;
 }
 ```
 
-✅ **Creating New State** (What we want to do):
+## Understanding State Management 🏦
 
-```javascript
-function setState(newState) {
-  state = {
-    ...state, // Copy all existing properties
-    ...newState, // Override with new values
-    lastUpdate: new Date(), // Add additional updates
+### Immediately Invoked Function Expression (IIFE) 😕
+
+Let's break this down. We know what a function expression is:
+
+```js
+const add = (a, b) => a + b;
+```
+
+An IIFE is a function that runs or is INVOKED immediately after it's defined:
+
+```js
+const result = (function (a, b) {
+  return a + b;
+})(2, 3);
+
+console.log(result); // 5
+```
+
+Any function written like this:`(() => { ... })()` is an IIFE.
+
+Again, we are defining the function and just calling it immediately after. Notice the extra parentheses around the function definition... that's what makes it an IIFE.
+
+### Why Use an IIFE? 🤔
+
+- Regular functions are like bank visits - temporary access.
+
+```js
+// Regular function - state is temporary
+function updateBankState() {
+  let vault = 100; // Start with $100
+  vault = vault + 50; // Deposit $50
+  console.log(vault); // 150
+  return vault;
+}
+
+updateBankState(); // Shows 150
+updateBankState(); // Shows 150 again - doesn't remember the +50
+```
+
+We need permanent security for our state.
+
+The IIFE creates a private space for our state, like a vault. IIFE runs once and keeps its scope alive - CLOSURE! The IIFE creates a new **scope** that is not accessible from the outside.
+
+```js
+// IIFE - state is permanent
+const updateBankState = (() => {
+  let vault = 100; // Start with `100`.
+
+  //   Whenever we return a function from a function, we can create a closure!
+  return () => {
+    vault = vault + 50; // Deposit `50` on each call.
+    console.log(vault); // 150
+    return vault;
   };
-  updateDisplay();
-}
+})();
+
+updateBankState(); // Shows 150
+updateBankState(); // Shows 200 - remembers the +50
+
+console.log(vault); // Error - vault is private!
 ```
 
-### Complete Example with Better State Management
+![Run code in browser console](/img/state-mgmt.png)
 
-```javascript
-// 1. Our state object holds all our data
-let state = {
-  count: 0,
-  lastUpdate: new Date(),
-  numberOfClicks: 0,
-};
+Inside the IIFE, we declare a variable vault with an initial value of `100`.
+This vault variable is enclosed within the IIFE and is not accessible from the global scope.
 
-// 2. Update display now shows more information
-function updateDisplay() {
-  document.querySelector("#count-display").textContent = state.count;
-  document.querySelector("#clicks").textContent = state.numberOfClicks;
-  document.querySelector("#last-update").textContent =
-    state.lastUpdate.toLocaleTimeString();
-}
+The IIFE returns an inner function `() => { ... }`.
+This inner function forms a closure, meaning it "remembers" the scope in which it was created. The inner function has access to the vault variable even after the IIFE has finished executing. The global scope cannot access the vault variable directly.
 
-// 3. setState handles all state updates
-function setState(newState) {
-  state = {
-    ...state,
-    ...newState,
-    lastUpdate: new Date(),
-    numberOfClicks: state.numberOfClicks + 1,
+Each time `updateBankState` is called, it updates the vault variable by adding `50` to it. The vault variable retains its value between calls because it is enclosed within the closure.
+
+This demonstrates how closures can be used to maintain state across multiple function calls. By using an IIFE and closures, we can create a function that maintains its own private state, which is a powerful feature in JavaScript for encapsulation and data privacy.
+
+## Reactive Counter State Management
+
+Again, Think of our state system like a bank vault:
+
+- Only bank tellers (setState) can modify what's inside
+- Customers (components) can view their balance (getState)
+- Account holders (subscribers) get notifications of changes
+
+```js
+export default (() => {
+  // Private "vault" area - cannot be accessed from outside
+  let state = { count: 0 };
+  const listeners = [];
+
+  // Public "teller window" - only way to interact with vault
+  return {
+    /**
+     * These are METHODS, scoped inside of this object.
+     * They enclose the state variable, making it private.
+     */
+    getState() {
+      return state;
+    },
+    setState(newState) {
+      state = newState;
+      listeners.forEach((listener) => listener(state));
+    },
+    subscribe(listener) {
+      listeners.push(listener);
+    },
   };
-  updateDisplay();
+})();
+```
+
+Only our chosen methods can access what's inside, and the global scope must go through these methods to interact with the state.
+
+## Putting It All Together
+
+```js
+import Button from "./components/button";
+import Count from "./components/count";
+import state from "./state";
+
+const app = document.querySelector("#app");
+
+function render() {
+  app.innerHTML = `  ${Count(state.getState().count)}
+    <div class="flex justify-center">
+      ${Button("+1", "increment")}
+      ${Button("-1", "decrement")}
+    </div>`;
 }
 
-// 4. Event listeners use setState
-document.querySelector("#increment").addEventListener("click", () => {
-  setState({ count: state.count + 1 });
+state.subscribe(render);
+render();
+
+document.addEventListener("click", (event) => {
+  if (event.target.id === "increment")
+    state.setState({ count: state.getState().count + 1 });
+  else if (event.target.id === "decrement")
+    state.setState({ count: state.getState().count - 1 });
 });
-
-document.querySelector("#decrement").addEventListener("click", () => {
-  setState({ count: state.count - 1 });
-});
-
-// 5. Initial display
-updateDisplay();
 ```
 
-```html
-<!-- index.html -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Advanced Counter</title>
-  </head>
-  <body>
-    <div class="text-center p-8">
-      <h2>Advanced Counter</h2>
-      <div id="count-display">0</div>
-      <div id="clicks">0 clicks</div>
-      <div id="last-update"></div>
-      <button id="increment">+1</button>
-      <button id="decrement">-1</button>
-    </div>
-    <script src="counter.js"></script>
-  </body>
-</html>
-```
+## Conclusion
 
-## Why Is This Better?
+These patterns form the foundation of modern frameworks like React and Vue.
 
-1. **Single Source of Truth**: All our data is in one place
-2. **Predictable Updates**: State changes happen in one function
-3. **Easy to Add Features**: Need new data? Just add it to the state object
-4. **Immutability**: We create new state instead of modifying existing state
-5. **Debugging**: Easier to track when and how state changes
+Understanding them helps you:
 
-## This Looks Familiar
-
-If this pattern looks familiar, it's because it's similar to how React's `useState` works:
-
-```javascript
-// React version
-const [state, setState] = useState({
-  count: 0,
-  lastUpdate: new Date(),
-  numberOfClicks: 0,
-});
-
-// Update state in React
-setState((prevState) => ({
-  ...prevState,
-  count: prevState.count + 1,
-}));
-```
-
-## Practice Exercises
-
-1. Add a "reset" feature that resets count but keeps track of total resets
-2. Add an "undo" feature that goes back to the previous state
-3. Add a "double" button that multiplies the count by 2
-
-### Exercise Solution: Undo Feature
-
-```javascript
-let state = {
-  count: 0,
-  lastUpdate: new Date(),
-  numberOfClicks: 0,
-  previousStates: [], // Array to store previous states
-};
-
-function setState(newState) {
-  // Save current state before updating
-  const previousState = { ...state };
-  state = {
-    ...state,
-    ...newState,
-    lastUpdate: new Date(),
-    numberOfClicks: state.numberOfClicks + 1,
-    previousStates: [...state.previousStates, previousState].slice(-5), // Keep last 5 states
-  };
-  updateDisplay();
-}
-
-function undo() {
-  if (state.previousStates.length > 0) {
-    const previousState = state.previousStates[state.previousStates.length - 1];
-    state = {
-      ...previousState,
-      previousStates: state.previousStates.slice(0, -1),
-    };
-    updateDisplay();
-  }
-}
-```
-
-## Key Takeaways
-
-1. Group related data into a state object
-2. Create new state objects instead of modifying existing ones
-3. Handle all state updates through a single function
-4. Keep your state management consistent
-5. Think about state history and tracking changes
-
-## Next Steps
-
-In the next lesson, we'll look at how to:
-
-- Handle form inputs with this pattern
-- Manage lists and arrays in state
-- Break our code into reusable components
-
-Would you like me to expand any of these sections or create additional practice exercises?
+- Debug state management issues
+- Build more maintainable applications
+- Better understand React's architecture
